@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="formContainer">
+        <form action="" method="post" name="test" ansubmit="valid(this)">
+            <label for="login">Login </label>
+            <p class="fieldDescription">Username must to have only letters </p>
+            <input id="login" type="text" name="login" placeholder="Enter your login"/>
+
+            <label for="password">Password </label>
+            <p class="fieldDescription" >Password must contains at least one digit and one small letter and one big letter</p>
+            <input id="password" type="password" name="password" placeholder="Enter your password"/>
+
+            <label for="checkPassword">Check password </label>
+            <input id="checkPassword" type="password" name="checkPassword" placeholder="Enter your password again"/>
+
+            <input id='button' type="button" value="Registration">
+
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
